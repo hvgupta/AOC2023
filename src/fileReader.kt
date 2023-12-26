@@ -1,4 +1,4 @@
-package com.fileReader
+package com.AOC.fileReader
 
 import java.io.File
 import java.io.InputStream

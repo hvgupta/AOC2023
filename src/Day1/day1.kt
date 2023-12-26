@@ -1,6 +1,6 @@
-import com.fileReader.getLines
+package com.AOC.Day1.day1
+import com.AOC.fileReader.getLines
 import kotlin.math.min
-
 
 fun part1(input:List<String>):Int{
     var sum:Int = 0
