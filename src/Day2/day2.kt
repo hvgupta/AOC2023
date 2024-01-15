@@ -48,7 +48,7 @@ fun part2(lines: List<String>):Int{
     for (i in 0..lines.lastIndex){
         val gameString: String = lines[i].substring(6+i.toString().length).replace(",","")
         val roundsList: List<String> = gameString.split(";")
-        var colourList: MutableList<Int> = MutableList<Int>(3){0}
+        val colourList: MutableList<Int> = MutableList<Int>(3){0}
         for (round in roundsList){
             val spaceDelimList: List<String> = round.split(" ")
             if ("red" in spaceDelimList){
